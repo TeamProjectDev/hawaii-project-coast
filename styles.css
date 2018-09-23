@@ -1,5 +1,6 @@
 * {
     font-family: 'Work Sans', sans-serif; /* fonts */
+    color: white;
 }
 
 html, body, .category { /* DO NOT TOUCH! */
@@ -9,8 +10,9 @@ html, body, .category { /* DO NOT TOUCH! */
     padding: 0;
 }
 
-.category, #main {
-    background-color: rgb(121, 255, 109)
+#main {
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
 /* two main parts */
@@ -23,7 +25,7 @@ html, body, .category { /* DO NOT TOUCH! */
     height: 93%;
     width: 16%;
     padding: 2%;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 #map {
@@ -37,6 +39,7 @@ html, body, .category { /* DO NOT TOUCH! */
 
 .category {
     height: 90%;
+    transition: display 15s;
 }
 
 #name {
@@ -44,9 +47,26 @@ html, body, .category { /* DO NOT TOUCH! */
 }
 
 .home_cat {
-    padding: 5% 2%;
-    border: 1px solid blue;
+    padding: 15% 2%;
+    border: 2px solid white;
     border-radius: 2%;
+    transition: padding 1s;
+}
+.home_cat:hover {
+    padding: 17% 2%;
+    cursor: pointer;
+}
+
+.homeButton {
+    border: 2px solid white;
+    padding: 8% 5%;
+    border-radius: 2%;
+    transition: 1s padding;
+}
+
+.homeButton:hover {
+    padding: 10% 6%;
+    cursor: pointer;
 }
 
 #statistics,#report { /* initial display */
@@ -56,4 +76,54 @@ html, body, .category { /* DO NOT TOUCH! */
 .reportSub {
     height: 100%;
     width: 100%;
+}
+
+#statistics > img {
+    width: 100%;
+    border-radius: 3%;
+}
+
+.header {
+    text-align: left;
+    font-size: 100%;
+}
+
+input {
+    width: 90%;
+    height: 40%;
+    padding: 6%;
+    background-color: rgba(0,0,0,0);
+    border: 2px solid white;
+    border-radius: 5%;
+}
+
+#notification {
+    width: 20%;
+    margin: 0;
+}
+
+#notification > img {
+    width: 100%;
+    position: relative;
+    z-index:0;
+}
+
+#notificationDropDown {
+    position: absolute;
+    width: 13%;
+    height: 25%;
+    border: 1px solid white;
+    background-color: rgb(83, 186, 255);
+}
+
+#notifyContainer > p {
+    
+    font-size: 65%;
+}
+
+#notificationDropDown > h2 {
+    display: inline-block;
+    border-bottom: 1px solid white;
+    margin-left: 2%;
+    font-size: 60%;
 }

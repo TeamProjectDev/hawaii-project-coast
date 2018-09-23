@@ -15,6 +15,7 @@ function clear() {
 function ToReport() {
     clear();
     report.style.display = 'block';
+    process.style.display = 'block';
 }
 
 function ToHome() {
