@@ -14,6 +14,8 @@ function initMap() { //initation
     trashMarkers.forEach(cur => { //gets trash markers from data
       let marker = new google.maps.Marker(cur[0]); 
       marker.addListener('click',function() { //when marker is clicked
+        map.setZoom(15);
+        map.setCenter(marker.getPosition());
         let childs = statsGUI.childNodes;
         ToStat();
         console.log(childs);
@@ -25,6 +27,9 @@ function initMap() { //initation
       marker.setMap(map);
       allMarkers.push(marker);
     });
+
+    
+
   /* marker End */
 
   map.addListener('click', (info) => {
@@ -58,9 +63,16 @@ function initMap() { //initation
         ToReportSub();
       }
       else {
+        console.log(e.latLng.lat);
+        console.log(e.latLng.lng);
         allMarkers.map((cur) => { 
           return google.maps.geometry.poly.containsLocation(cur.position, location) ? cur.setVisible(true) : cur.setVisible(false) //whether marker visible or not
         });
+        ToStat();
+        childs[3].innerHTML = 'Location'; /* changes the info in the stats div by accessing childs*/
+        childs[5].src = 'none';
+        childs[9].innerHTML = 'Reported Trash';
+        childs[13].innerHTML = `oof`;
       };
     });
     location.setMap(map); //sets location on the map

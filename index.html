@@ -43,14 +43,17 @@
         <div id="process" class='reportSub'>
           <h3 onclick='ToHome()' class='homeButton'>Home</h3>
           <h2>Report A Case</h2>
+          <h3>Click A Valid Area to Place a Marker</h3>
         </div>
 
         <div id="info" class='reportSub'>
           <h2>Information</h2>
           <h3 class='header'>Image</h3>
-          <h3 class='header'>Description</h3>
+          <input type="file" name="pic" accept="image/*">
+          <h3 class='header' id='descriptionMark'>Description</h3>
           <textarea rows="4" cols="50"> </textarea>
-          <h4 onclick='Cancel()'>Cancel</h4>
+          <h4 onclick='Submit()' id='submit'>Submit</h4>
+          <h4 onclick='Cancel()' id='cancel'>Cancel</h4>
         </div>
       </div>
 

@@ -1,3 +1,4 @@
+console.log(window.sessionStorage);
 const categories = document.getElementsByClassName('category')
 const statsGUI = document.querySelector('#statistics');
 const report = document.querySelector('#report');
@@ -5,6 +6,7 @@ const home = document.querySelector('#home');
 const reportSub = document.querySelector('#reportSub');
 const process = document.querySelector('#process');
 const dropDown = document.querySelector('#notificationDropDown');
+var description = document.querySelector('#descriptionMark');
 
 /* functions for the button */
 function clear() {
@@ -46,6 +48,17 @@ function Cancel() {
     allMarkers[allMarkers.length-1].setMap(null);
     allMarkers.pop();
     ToHome();
+}
+
+function Submit() {
+    sessionStorage.setItem('key', [
+        allMarkers[allMarkers.length-1].position,
+        {
+            type: 'marker',
+            img: 'images/nice.jpg',
+            description: description.innerHTML
+        }
+    ]);
 }
 
 function Dropdown() {

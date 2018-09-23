@@ -47,6 +47,12 @@ var beachLocations = {
         {lat:21.36811637647111, lng: -158.14000592427345},
         {lat:21.372012940243803,lng: -158.1445334930906},
         {lat:21.375000979281776, lng: -158.1403613090515}
+    ],
+    waikiki: [
+        {lat: 21.278011552971183, lng: -157.83154862591869},
+        {lat: 21.27427245640841, lng: -157.82176392743236},
+        {lat: 21.270873195265832, lng: -157.82704251477367},
+        {lat: 21.27543218636304, lng: -157.8333725280488}
     ]
 
 }
@@ -55,18 +61,120 @@ var beachLocations = {
 var trashMarkers = [
     [{
         position: {lat:21.300776, lng:-158.050877},
-    }, {
-        img: 'images/nice.jpg'
-    }
-    ], 
-    [{
-        position: {lat:21.301776, lng:-158.050877}
     },
     {
         type: 'marker',
         img: 'images/nice.jpg',
         description: 'I ate the Garbage and whent to the moon'
     }
+
+
     
-    ]
+    ],
+
+    // [{
+    //     position: {
+    //         lat:21.10000, lng:-157.8000009
+    //     },
+    //     {
+    //     type='marker';
+    //     img: '';
+    //     description:'';
+    //     }
+
+    // ]
+
+
+    [{//tracks
+        position: {lat:21.190304, lng:-157.132567},
+    },
+    {
+        type: 'marker',
+        img: 'images/nice.jpg',
+        description: 'Such a messy mess'
+    }
+
+
+    
+    ],
+
+
+    [{//blackRocks
+        position: {lat:21.310304, lng:-157.79939},
+    },
+    {
+        type: 'marker',
+        img: 'images/nice.jpg',
+        description: 'Found trash around here'
+    }
+
+
+    
+    ],
+
+
+
+    [{//kahe
+        position: {lat:21.34030400, lng:-157.1299039},
+    },
+    {
+        type: 'marker',
+        img: 'images/nice.jpg',
+        description: 'Wow my enviorment is so dirty'
+    }
+
+
+    
+    ],
+
+
+    [{//kolina
+        position: {lat:21.315732, lng:-157.100049},
+    },
+    {
+        type: 'marker',
+        img: 'images/nice.jpg',
+        description: 'Ohhh, ocean trashhh'
+    }
+
+
+    
+    ],
+
+
+
+    [{//barbersPoint
+        position: {lat:21.3199304, lng:-157.12939},
+    },
+    {
+        type: 'marker',
+        img: 'images/nice.jpg',
+        description: 'So much trash'
+    }
+
+
+    
+    ],
+
+
+
+    [{//waimanalo
+        position: {lat:21.3409099304, lng:-157.6999939},
+    },
+    {
+        type: 'marker',
+        img: 'images/nice.jpg',
+        description: 'Found this recently'
+    }
+    ],
+    [{
+        position: {lat:21.307596, lng:-158.115280}
+    },
+    {
+        type: 'marker',
+        img: 'http://news.nationalgeographic.com/content/dam/news/2015/06/06/monsternet/04monsternet.jpg',
+        description: 'Poor Walrus, Hope he gets help'
+    }
+    ],
+
 ];
