@@ -11,7 +11,7 @@
   <body>
     <div id="main">
       <div id="notification">
-          <img src='images/bell.png' onclick='dropdown()'>
+          <img src='images/bell.png' onclick='Dropdown()'>
           <div id="notificationDropDown">
             <h2>2 New Notifications</h2>
               <div id="notifyContainer">
@@ -26,6 +26,7 @@
       <div id="home" class='category'>
         <h3 class='home_cat' onclick='ToStat()'>Statistics</h3>
         <h3 class='home_cat' onclick='ToReport(); AddEvent()'>report</h3>
+        <h3 class="home_cat" >Log Out</h3>
       </div>
 
       <div id="statistics" class='category'>
@@ -54,6 +55,8 @@
       </div>
 
     </div>
+
+
 
     <div id="map"> <!-- BEWARE! Dont touch map-->
       

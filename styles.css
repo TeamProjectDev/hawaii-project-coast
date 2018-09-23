@@ -109,6 +109,7 @@ input {
 }
 
 #notificationDropDown {
+    display: none;
     position: absolute;
     width: 13%;
     height: 25%;
