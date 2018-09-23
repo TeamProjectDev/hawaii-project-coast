@@ -1,0 +1,146 @@
+#container {
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+}
+
+#miniContainer {
+    position: fixed;
+    z-index: 4;
+}
+
+
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    z-index: 3;
+}
+
+.main-wrapper {
+    position: fixed;
+    z-index: 3;
+}
+
+
+#login {
+    display: flex;
+    justify-content: center;
+}
+
+.userInputs {
+    padding: 2% 2%;
+    font-size: 125%;
+    width: 300px;
+    opacity: 0.35;
+    border: 3px solid  rgba(184, 184, 184, 0.4);
+    border-radius: 3%; 
+    display: flex;
+    flex-direction: row;
+   
+}
+
+
+#submitButton {
+    height: 30px;
+}
+
+#guestButtonChild {
+    text-decoration: none;
+    color: black;
+}
+
+
+#websiteName {
+    font-size: 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:gray;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+/*body {
+    background-size: 100%;
+    background-repeat: none;
+    background-image: url("http://www.traveltourismblog.com/images/Hawaii%20beautiful%20beach.jpg")
+}
+*/
+
+
+#videoBackground {
+    z-index: 1;
+position: fixed;
+    opacity: 0.6;
+}
+
+
+#signUp {
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+
+#signUpLink {
+    display: flex;
+    justify-content: center;
+}
+
+#button {
+   display: flex;
+   justify-content: center;
+}
+
+#logo {
+    position: fixed;
+    bottom: 0;
+    right: 5%;
+}
+
+
+.signup-form {
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 30px;
+    
+}
+
+.signup-form input {
+    width: 100%;
+    height: 40px;
+    padding: 0px 5%;
+    margin-bottom: 4px;
+    border: none;
+    background-color: #fff;
+    font-family: arial;
+    font-size: 16px;
+    color: #111;
+    line-height: 40px;
+    opacity: 0.35;
+    border: 3px solid  rgba(184, 184, 184, 0.4);
+    border-radius: 3%; 
+   
+}
+
+
+.signup-form button {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: 40px;
+    border: none;
+    background-color: #222;
+    font-family: arial;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.signup-form button:hover {
+   
+    background-color: #222;
+}
