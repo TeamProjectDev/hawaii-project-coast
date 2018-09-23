@@ -63,11 +63,10 @@ function initMap() { //initation
         ToReportSub();
       }
       else {
-        console.log(e.latLng.lat);
-        console.log(e.latLng.lng);
         allMarkers.map((cur) => { 
           return google.maps.geometry.poly.containsLocation(cur.position, location) ? cur.setVisible(true) : cur.setVisible(false) //whether marker visible or not
         });
+        let childs = statsGUI;
         ToStat();
         childs[3].innerHTML = 'Location'; /* changes the info in the stats div by accessing childs*/
         childs[5].src = 'none';

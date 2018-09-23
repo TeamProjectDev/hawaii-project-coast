@@ -1,4 +1,6 @@
 console.log(window.sessionStorage);
+const main = document.querySelector('#main')
+const mapp = document.querySelector('#map')
 const categories = document.getElementsByClassName('category')
 const statsGUI = document.querySelector('#statistics');
 const report = document.querySelector('#report');
@@ -7,6 +9,7 @@ const reportSub = document.querySelector('#reportSub');
 const process = document.querySelector('#process');
 const dropDown = document.querySelector('#notificationDropDown');
 var description = document.querySelector('#descriptionMark');
+const forum = document.querySelector('#community');
 
 /* functions for the button */
 function clear() {
@@ -24,6 +27,7 @@ function ToReport() {
 function ToHome() {
     clear();
     home.style.display = 'block';
+    forum.style.display = 'none';
 }
 
 function ToStat() {
@@ -42,6 +46,15 @@ function ToReportSub() {
     report.style.display = 'block';
     process.style.display = 'none';
     reportSub.style.display = 'block';
+}
+
+function ToForum() {
+    clear();
+    home.style.display = 'block';
+    forum.style.display = 'inline-block';
+    forum.style.width = '80%';
+    forum.style.height = '100%';
+    mapp.style.width = '0%';
 }
 
 function Cancel() {

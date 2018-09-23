@@ -152,4 +152,35 @@ textarea {
     width: 0px;  /* remove scrollbar space */
     background: transparent;  /* optional: just make scrollbar invisible */
 }
-/*
+
+#community {
+    display: none;
+    float: right;
+    background: rgb(106,14,110);
+    background: linear-gradient(0deg, rgba(106,14,110,1) 0%, rgba(9,9,121,1) 35%, rgba(217,0,255,1) 100%);
+}
+
+/* for forums */
+.homeButtonForum {
+    display: inline-block;
+    width: 20%;
+    border: 2px solid white;
+    margin-left: 1%;
+    padding: 2% 1.5%;
+    text-align: center;
+}
+
+#topics {
+    width: 50%;
+    height: 95%;
+    float: right;
+    font-size: 125%;
+    margin-right: 2%;
+}
+
+#topics > h2 {
+    border: 2px solid white;
+    padding: 5%;
+    margin-top: 2%;
+    text-align: center;
+}

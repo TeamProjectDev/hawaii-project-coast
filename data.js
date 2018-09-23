@@ -64,8 +64,8 @@ var trashMarkers = [
     },
     {
         type: 'marker',
-        img: 'images/nice.jpg',
-        description: 'I ate the Garbage and whent to the moon'
+        img: 'https://www.latimes.com/resizer/KdIk05pAdPq_mvVNxut7akgCYNg=/1400x0/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/OEPP33I3W5GB3HI5VV2AGI3A6M.jpg',
+        description: 'Ohhh, Ocean Trashhhh'
     }
 
 
@@ -87,10 +87,41 @@ var trashMarkers = [
 
     [{//tracks
         position: {lat:21.190304, lng:-157.132567},
+        position: {lat: 21.003945, lng: -157.00004564},
+        position: {lat: 21.140335, lng: -157.111111}
     },
     {
         type: 'marker',
-        img: 'images/nice.jpg',
+        img: 'https://www.samuiislanddivers.com/wp-content/uploads/2018/04/ocean-trash.jpg',
+        description: 'Such a messy mess'
+    }
+
+
+    
+    ],
+
+    [{//tracks
+        
+        position: {lat: 21.003945, lng: -157.00004564}
+       
+    },
+    {
+        type: 'marker',
+        img: 'https://www.samuiislanddivers.com/wp-content/uploads/2018/04/ocean-trash.jpg',
+        description: 'Such a messy mess'
+    }
+
+
+    
+    ],
+
+    [{//tracks
+    
+        position: {lat: 21.140335, lng: -157.111111}
+    },
+    {
+        type: 'marker',
+        img: 'https://www.samuiislanddivers.com/wp-content/uploads/2018/04/ocean-trash.jpg',
         description: 'Such a messy mess'
     }
 
@@ -100,11 +131,11 @@ var trashMarkers = [
 
 
     [{//blackRocks
-        position: {lat:21.310304, lng:-157.79939},
+        position: {lat:21.274061, lng:-157.827918},
     },
     {
         type: 'marker',
-        img: 'images/nice.jpg',
+        img: 'https://cdnph.upi.com/svc/sv/i/7391494876437/2017/1/14948766072961/Coast-Guard-rescues-four-sea-turtles-tangled-in-trash.jpg',
         description: 'Found trash around here'
     }
 
@@ -119,7 +150,7 @@ var trashMarkers = [
     },
     {
         type: 'marker',
-        img: 'images/nice.jpg',
+        img: 'https://www.latimes.com/resizer/KdIk05pAdPq_mvVNxut7akgCYNg=/1400x0/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/OEPP33I3W5GB3HI5VV2AGI3A6M.jpg',
         description: 'Wow my enviorment is so dirty'
     }
 
@@ -130,10 +161,25 @@ var trashMarkers = [
 
     [{//kolina
         position: {lat:21.315732, lng:-157.100049},
+        position: {lat: 21.30111111, lng: -157.0620939}
     },
     {
         type: 'marker',
-        img: 'images/nice.jpg',
+        img: 'https://thumbnails.cbc.ca/maven_legacy/thumbnails/100/715/STILL_MarianasTrench.jpg?crop=1.777xh:h;*,*&crop=w:0.5625xw;*,*&downsize=1280px:*',
+        description: 'Ohhh, ocean trashhh'
+    }
+
+
+    
+    ],
+
+    [{//kolina
+        
+        position: {lat: 21.30111111, lng: -157.0620939}
+    },
+    {
+        type: 'marker',
+        img: 'https://thumbnails.cbc.ca/maven_legacy/thumbnails/100/715/STILL_MarianasTrench.jpg?crop=1.777xh:h;*,*&crop=w:0.5625xw;*,*&downsize=1280px:*',
         description: 'Ohhh, ocean trashhh'
     }
 
@@ -142,13 +188,59 @@ var trashMarkers = [
     ],
 
 
-
     [{//barbersPoint
         position: {lat:21.3199304, lng:-157.12939},
+        position: {lat: 21.30123, lng: -157.11000},
+        position: {lat: 21.30000432, lng: -157.1004632},
+        position: {lat: 21.3203432, lng: -157.102345}
     },
     {
         type: 'marker',
-        img: 'images/nice.jpg',
+        img: 'http://ww2.kqed.org/science/wp-content/uploads/sites/35/2013/06/tire-ledge.jpg',
+        description: 'So much trash'
+    }
+
+
+    
+    ],
+
+    [{//barbersPoint
+       
+        position: {lat: 21.30123, lng: -157.11000},
+       
+    },
+    {
+        type: 'marker',
+        img: 'http://ww2.kqed.org/science/wp-content/uploads/sites/35/2013/06/tire-ledge.jpg',
+        description: 'So much trash'
+    }
+
+
+    
+    ],
+
+    [{//barbersPoint
+       
+        position: {lat: 21.30000432, lng: -157.1004632},
+        
+    },
+    {
+        type: 'marker',
+        img: 'http://ww2.kqed.org/science/wp-content/uploads/sites/35/2013/06/tire-ledge.jpg',
+        description: 'So much trash'
+    }
+
+
+    
+    ],
+
+    [{//barbersPoint
+       
+        position: {lat: 21.3203432, lng: -157.102345}
+    },
+    {
+        type: 'marker',
+        img: 'http://ww2.kqed.org/science/wp-content/uploads/sites/35/2013/06/tire-ledge.jpg',
         description: 'So much trash'
     }
 
@@ -176,5 +268,6 @@ var trashMarkers = [
         description: 'Poor Walrus, Hope he gets help'
     }
     ],
+
 
 ];
